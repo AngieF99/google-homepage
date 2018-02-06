@@ -1,0 +1,141 @@
+
+/*----HEADER----*/
+.header {
+background-color: rgb(250, 250, 250);
+margin:-5px;
+margin-left: auto;
+margin-right: auto;
+border-bottom: 1px solid lightgrey;
+}
+
+
+#googlesearch {
+  width: 45%;
+  overflow: visible;
+  display:inline-block;
+}
+
+input[type=text]{
+  display:block;
+  width: 100%;
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateY(-26px) translateX(15px);
+}
+
+.pics{
+float: right;
+padding: 25px 23px;
+}
+
+ul {
+  display: block;
+  vertical-align: middle;
+  padding-left: 150px;
+
+}
+ul a{
+  text-decoration: none;
+  color:#222;
+  opacity: .85;
+  padding: 16px 16px;
+  padding-left:25px;
+}
+span {padding-left: 50px;}
+
+ul a:hover{
+  color:rgb(96, 77, 184);
+  text-decoration: underline;
+}
+
+/*----MAIN CONTENT----*/
+.main a, .main p{
+  font-family: Arial;
+  font-weight: normal;
+  padding: none;
+  text-decoration: none;
+
+}
+
+h1 a{font-size:20px;}
+
+h2 a, h3 a{text-decoration: none;}
+
+h3 a,p{font-size:15px;}
+
+h2 a{
+  color: #006621;
+  font-style: normal;
+  font-size: 18px;
+}
+.result,h1,h2, h3, p{margin:6px 6px 6px 6px; padding-left: 25px;}
+
+h4{color:#222;}
+
+.result,.one,.two,.three,.four,.five{
+  display:block;
+  margin: 12px 12px 12px 12px;
+}
+
+.topstories{
+  display:inline-block;
+  padding-left: 110px;
+}
+
+
+.story1,.story2,.story3{
+  display: inline-block;
+  padding: 25px 25px;
+  padding-left:25px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border: 1px solid;
+  vertical-align: middle;
+  height: 317px;
+  width: 246px;
+  text-align: left;
+}
+
+.story1 h2 a, .story2 h2 a, .story3 h2 a {
+  color:rgb(96, 77, 184);
+}
+.story1 h3, .story2 h3, .story3 h3 {
+  color: #006621;
+}
+
+
+.topstories img{
+  height:165px;
+  width:200px;
+}
+
+/*----RELATED SEARCHES----*/
+.relatedsearch {
+  display:block;
+  margin: 16px 12px 12px 12px;
+  padding-top: 12px;
+}
+.relatedsearch a{
+  text-decoration: none;
+  padding: 16px 16px;
+}
+.relatedsearch span{
+  display: block;
+  align-items: center;
+  padding: 12px 12px;
+}
+
+/*----FOOTER----*/
+.footer {
+background-color: rgb(250, 250, 250);
+margin:-5px;
+margin-left: auto;
+margin-right: auto;
+border-top: 1px solid lightgrey;
+}
+
+.footer ul, .footer h3 {
+  display: block;
+  vertical-align: middle;
+  padding-left: 150px;
